@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+
+html, body {
+     height:100%;
+     width:100%;
+     font-family: 'Open Sans Hebrew';
+     font-style:normal;
+     font-weight: 400;
+     background-image: url("img/bg.jpg");
+     position: relative;
+     z-index: 1;
+}
+ .dtable tr td{
+     display:inline-table;
+     margin-right:40px;
+}
+ .header {
+     margin-right: -31px;
+     margin-left: 0px;
+}
+ #myHeader{
+     margin-bottom:15px;
+}
+ .header-image {
+     background-image: url("img/PISA_TopBG.jpg");
+     background-position: left top;
+     background-size: cover;
+     background-repeat:no-repeat;
+     height: 130px;
+     left: 10px;
+    /*width: 90%;
+     position: absolute;
+     top: 120px;
+     */
+}
+ .text-image {
+     color: #fff;
+     font-size: 48pt;
+     margin-top: -90px;
+     margin-bottom: 40px;
+     margin-right: 15px;
+     text-align:right;
+}
+ .columnText p{
+     direction:rtl;
+     font-size:medium;
+     text-align: justify;
+}
+ hr{
+     color:#c7c7c7;
+     background-color:#c7c7c7;
+     border-color:#c7c7c7;
+}
+/*subject items*/
+ .subjectImage {
+     width: 27px;
+     height: 27px;
+     margin-right: -5px;
+     margin-top: 5px;
+}
+ .subjectButtons {
+     width: 85px;
+     float: left;
+     margin-left:0px;
+}
+ small{
+     display:grid;
+     direction:rtl;
+}
+ .btn-circle {
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+}
+ .btn-circle.btn-lg {
+     width: 50px;
+     height: 50px;
+     background-color: #E0E0E0;
+     border-color: #777777;
+}
+ .btn-circle.btn-lg:active, .btn-circle.btn-lg.active {
+     background-color: #777777;
+     -webkit-filter: invert(100%) !important;
+     filter: invert(100%) !important;
+}
+ .btn-circle.btn-lg:hover, .btn-circle.btn-lg.hover {
+     background-color: #777777;
+     -webkit-filter: invert(100%) !important;
+     filter: invert(100%) !important;
+}
+ .radio input {
+     display: none;
+}
+ .radio-inline input {
+     display: none;
+}
+/*dashboard buttons input[type="checkbox"] {
+     display: none;
+}
+*/
+ .btnMeasurments {
+     color: #777777;
+     background-color: #E0E0E0;
+     border-color: #777777;
+     border-width: 1px;
+     font-size: 12pt;
+     line-height: 0.7;
+}
+ .btn.btnMeasurments.active, .btn.btnMeasurments:hover {
+     color: #FFFFFF;
+     border-width: 2px;
+     border-color: #777777;
+}
+ #generalBtn.active, #generalBtn:hover {
+     background-color: #b276b2;
+}
+ #maleBtn.active, #maleBtn:hover {
+     background-color: #5da5da;
+}
+ #femaleBtn.active, #femaleBtn:hover {
+     background-color: #f17cb0;
+}
+ #lowBtn.general.active, #lowBtn.general:hover {
+     background-color: #bc99c7;
+}
+ #mediumBtn.general.active, #mediumBtn.general:hover {
+     background-color: #b276b2;
+}
+ #highBtn.general.active, #highBtn.general:hover {
+     background-color: #7b3a96;
+}
+ #lowBtn.female.active, #lowBtn.female:hover {
+     background-color: #f6aac9;
+}
+ #mediumBtn.female.active, #mediumBtn.female:hover {
+     background-color: #f17cb0;
+}
+ #highBtn.female.active, #highBtn.female:hover {
+     background-color: #e5126f;
+}
+ #lowBtn.male.active, #lowBtn.male:hover {
+     background-color: #88bde6;
+}
+ #mediumBtn.male.active, #mediumBtn.male:hover {
+     background-color: #5da5da;
+}
+ #highBtn.male.active, #highBtn.male:hover {
+     background-color: #265dab;
+}
+ #lowBtn.male.female, #lowBtn.male.female:hover {
+     color: #777777;
+     background-color: #E0E0E0;
+     border-color: #777777;
+     border-width: 1px;
+     font-size: 12pt;
+     line-height: 0.7;
+}
+ #mediumBtn.male.female, #mediumBtn.male.female:hover {
+     color: #777777;
+     background-color: #E0E0E0;
+     border-color: #777777;
+     border-width: 1px;
+     font-size: 12pt;
+     line-height: 0.7;
+}
+ #highBtn.male.female, #highBtn.male.female:hover {
+     color: #777777;
+     background-color: #E0E0E0;
+     border-color: #777777;
+     border-width: 1px;
+     font-size: 12pt;
+     line-height: 0.7;
+}
+/*countries*/
+ .btn-countries {
+     background-color: #E0E0E0;
+     border-color: #c7c7c7;
+     border-width: 1px;
+     border-radius: 0;
+     font-size: 16pt;
+     color: #777777;
+}
+ .btn-countries:active, .btn-countries.active {
+     background-color: #777777;
+     color: #FFFFFF;
+}
+ .btn-countries:hover, .btn-countries.hover {
+     background-color: #777777;
+}
+ .selectize-input {
+     border-radius: 0;
+     line-height: 1.333333333;
+     font-size: 18pt;
+     color: #777777;
+     text-align:right;
+     padding-right:40px;
+}
+ .selectize-input > * {
+     vertical-align: middle;
+}
+ .selectize-input .item {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+}
+/* respnonsive */
+ .selectize-input {
+     display: table !important;
+     table-layout: fixed;
+     width: 100%;
+}
+ .selectize-input > * {
+     vertical-align: middle;
+}
+ .selectize-input .item {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     max-width: 80%;
+}
+ .selectize-dropdown{
+     text-align:right;
+}
+ .plotly, .shiny-plot-output {
+     height: 200px;
+     cursor:pointer;
+}
+ #LevelNumberDiv {
+     width: 100px;
+}
+ .hovertext {
+     direction: ltr !important;
+}
+ .hovertext text {
+     font-size: 15px !important;
+}
+ .legendtext {
+     font-size: 30px !important;
+}
+ .js-plotly-plot .plotly .modebar {
+     z-index: 0;
+}
+ .dragcover{
+     cursor:pointer;
+     pointer-events:all;
+}
+ a, a:hover {
+     color: #333;
+}
+ #logos{
+     display:grid;
+}
+ #IC_logo{
+     width: 300px;
+}
+ #TrumpLogo {
+     width: 150px;
+     margin-right:40px;
+}
+ #AllCloudLogo{
+     width: 120px;
+     margin-right:40px;
+}
+ 
